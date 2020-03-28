@@ -64,7 +64,7 @@ void loop() {
     // Send the frequency to the serial monitor, but onliy if not zero
     if (freq != 0) {
       Serial.print(freq);
-      Serial.println("Hz");
+      Serial.println(" Hz");
     }
 
     // Reset variables
